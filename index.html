@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Programs 3.0</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>
+                    Conditional Programs
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3" id="divProgram1">
+
+
+                <!-- <form action="">  -->
+                <legend> Program 1</legend>
+                <h6> js program  to find maximum between two numbers. </h6>
+                <label for="">Enter Number 1</label> <br>
+                <input type="number" name="num" id="num1" required maxlength=""> <br>
+                <label for="">Enter Number 2</label> <br>
+                <input type="number" name="num" id="num2" required maxlength="">
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="maximumNumber()">Submit</button>
+
+                <!-- </form>  -->
+
+            </div>
+
+
+            <div class="col-lg-3" id="divProgram2">
+                <legend> Program 2</legend>
+                <h6> js program  to find maximum between three numbers. </h6>
+                <label for="">Enter Number 1:</label> <br>
+                <input type="number" name="" id="number1" required maxlength=""> <br>
+                <label for="">Enter Number 2:</label> <br>
+                <input type="number" name="" id="number2" required maxlength=""> <br>
+                <label for="">Enter Number 3:</label> <br>
+                <input type="number" name="" id="number3" required maxlength="">
+                <button type="button" class="btn btn-primary btn-sm" onclick="maximumNumber3()">Submit</button>
+
+
+            </div>
+
+            <div class="col-lg-3" id="divProgram3">
+                <!-- <form action="" id="formProgram3" autocomplete="off" method="POST" r onsubmit="return signChecker()"> -->
+                <legend> Program 3</legend>
+                <h6> js program check whether a number is negative, positive or zero.. </h6>
+                <label for="">Enter a Number:</label> <br>
+                <input type="tel" name="numInput" id="numInput" required maxlength="" placeholder="Enter a Number">
+                <button type="button" class="btn btn-primary btn-sm" onclick="signChecker()">Submit</button>
+
+                <!-- </form> -->
+
+            </div>
+
+            <div class="col-lg-3" id="divProgram4">
+                <legend> Program 4</legend>
+                <h6> js program  to check whether a number is divisible by 5 and 11 or not.. </h6>
+                <label for="">Enter a Number:</label> <br>
+                <input type="tel" name="program4" id="program4" required maxlength="" placeholder="Enter a Number">
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="program4()">Submit</button>
+
+            </div>
+
+
+        </div>
+
+        <!-- row 2 -->
+        <div class="row">
+
+
+
+
+            <div class="col-lg-3" id="divProgram5">
+
+
+                <legend> Program 5</legend>
+                <h6> js program  to check whether a number is even or odd.</h6>
+                <label for="">Enter a Number:</label> <br>
+                <input type="tel" name="program5" id="program5" required maxlength="" placeholder="Enter a Number">
+
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="program5()">Submit</button>
+            </div>
+            <div class="col-lg-3" id="divProgram6">
+
+                <legend> Program 6</legend>
+                <h6> js program  to  check whether a year is leap year or not.. </h6>
+                <label for="">Enter a Year:</label> <br>
+                <input type="tel" name="program6" id="program6" required maxlength="4" placeholder="Enter here">
+
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="program6()">Submit</button>
+            </div>
+            <div class="col-lg-3" id="divProgram7">
+
+                <legend> Program 7</legend>
+                <h6> js program  to  check whether a character is alphabet or not. </h6>
+                <label for="">Enter a Character:</label> <br>
+                <input type="text" name="program7" id="program7" required maxlength="" placeholder="Enter here">
+
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="program7()">Submit</button>
+            </div>
+
+            <div class="col-lg-3" id="divProgram8">
+
+                <legend> Program 8</legend>
+                <h6> js program  to  input any alphabet and check whether it is vowel or consonant. </h6>
+                <label for="">Enter an Alphabet:</label> <br>
+                <input type="text" name="program8" id="program8" required maxlength="1" placeholder="Enter here">
+
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="program8()">Submit</button>
+            </div>
+
+
+        </div>
+
+        <!-- row 3 -->
+        <div class="row">
+            <div class="col-lg-3" id="divProgram9"> <br>
+                <legend> Program 9</legend>
+                <h6> js program  to  input any character and check whether it is alphabet, digit or special character. </h6>
+                <label for="">Enter an Alphabet:</label> <br>
+                <input type="text" name="program9" id="program9" required maxlength="1" placeholder="Enter here">
+
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="program9()">Submit</button>
+            </div>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3"></div>
+        </div>
+        <br>
+        <!-- row 4 -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>
+              ...............................Strings Handling.................................
+                </h1>
+            </div>
+        </div>
+        <!-- row 5-->
+        <div class="row">
+            <div class="col-lg-3" id="divProgram10"> <br>
+                <legend> Program 1</legend>
+                <h6>js program to find length of a string.</h6>
+
+                <label for="">Enter a String:</label> <br>
+                <input type="text" name="program10" id="program10" required maxlength="" placeholder="Enter here">
+
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="program10()">Submit</button>
+            </div>
+
+            <div class="col-lg-3" id="divProgram11"> <br>
+                <legend> Program 2 </legend>
+                <h6>js program to copy one string to another string..</h6>
+
+                <label for="">Enter String 1:</label> <br>
+                <input type="text" name="program11" id="program11" required maxlength="" placeholder="Enter here">
+
+                
+                <label for="">Enter String 2:</label> <br>
+                <input type="text" name="program11" id="inputProgram11" required maxlength="" placeholder="Enter here">
+
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="program11()">Submit</button>
+            </div>
+
+            <div class="col-lg-3" id="divProgram12"> <br>
+                <legend> Program 3</legend>
+                <h6> Js program to concatenate two strings.</h6>
+
+                <label for="">First Name:</label> <br>
+                <input type="text" name="program12" id="program12" required maxlength="" placeholder="Enter here"> <br>
+                <label for="">Last Name:</label> <br>
+                <input type="text" name="program12" id="inputProgram12" required maxlength="" placeholder="Enter here">
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="program12()">Submit</button>
+            </div>
+
+            <div class="col-lg-3" id="divProgram13"> <br>
+                <legend> Program 4 </legend>
+                <h6> Js program to compare two strings.</h6>
+
+                <label for="">String 1:</label> <br>
+                <input type="text" name="program13" id="program13" required maxlength="" placeholder="Enter here"> <br>
+                <label for="">String 2:</label> <br>
+                <input type="text" name="program13" id="inputProgram13" required maxlength="" placeholder="Enter here">
+
+                <button type="button" class="btn btn-primary btn-sm" onclick="program13()">Submit</button>
+            </div>
+
+        </div>
+<!-- row 6 -->
+
+<div class="row">
+    <div class="col-lg-3" id="divProgram14"> <br>
+        <legend> Program 5</legend>
+        <h6> Js program to convert lowercase string to uppercase.</h6>
+
+        <label for="">Enter Lowercase string:</label> <br>
+        <input type="text" name="program14" id="program14" required maxlength="" placeholder="Enter here"> 
+       
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program14()">Submit</button>
+    </div>
+
+
+
+
+    <div class="col-lg-3" id="divProgram15"> <br>
+        <legend> Program 6</legend>
+        <h6> Js program to convert uppercase string to lowercase.</h6>
+
+        <label for="">Enter Uppercase string:</label> <br>
+        <input type="text" name="program15" id="program15" required maxlength="" placeholder="Enter here"> 
+       
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program15()">Submit</button>
+    </div>
+
+
+    
+    <div class="col-lg-3" id="divProgram16"> <br>
+        <legend> Program 7 Not Complete</legend>
+        <h6> Js program to toggle case of each character of a string.</h6>
+
+        <label for="">Enter string:</label> <br>
+        <input type="text" name="program16" id="program16" required maxlength="" placeholder="Enter here"> 
+       
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program16()">Submit</button>
+    </div>
+
+
+
+
+    <div class="col-lg-3" id="divProgram17"> <br>
+        <legend> Program 8</legend>
+        <h6> js program to find total number of alphabets, digits or special character in a string..</h6>
+
+        <label for="">Enter string:</label> <br>
+        <input type="text" name="program17" id="program17" required maxlength="" placeholder="Enter here"> 
+       
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program17()">Submit</button>
+    </div>
+
+
+</div>
+
+
+
+<!-- row 7 -->
+<div class="row">
+    <div class="col-lg-3" id="divProgram18"> <br>
+        <legend> Program 9</legend>
+        <h6> js program to  count total number of vowels and consonants in a string.</h6>
+
+        <label for="">Enter string:</label> <br>
+        <input type="text" name="program18" id="program18" required maxlength="" placeholder="Enter here"> 
+       
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program18()">Submit</button>
+    </div>
+
+
+
+
+
+    <div class="col-lg-3" id="divProgram19"> <br>
+        <legend> Program 10</legend>
+        <h6> js program  to count total number of words in a string.</h6>
+
+        <label for="">Enter string:</label> <br>
+        <input type="text" name="program19" id="program19" required maxlength="" placeholder="Enter here"> 
+       
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program19()">Submit</button>
+    </div>
+
+
+    <div class="col-lg-3" id="divProgram20"> <br>
+        <legend> Program 11  (Not complete)</legend>
+        <h6> js program  to find reverse of a string.</h6>
+
+        <label for="">Enter string:</label> <br>
+        <input type="text" name="program20" id="program20" required maxlength="" placeholder="Enter here"> 
+       
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program20()">Submit</button>
+    </div>
+
+
+    <div class="col-lg-3" id="divProgram21"> <br>
+        <legend> Program 12 (Not complete)</legend>
+        <h6> js program  to check whether a string is palindrome or not.</h6>
+
+        <label for="">Enter string:</label> <br>
+        <input type="text" name="program21" id="program21" required maxlength="" placeholder="Enter here"> 
+       
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program21()">Submit</button>
+    </div>
+</div>
+
+
+
+<!-- row 8 -->
+<div class="row">
+
+
+    <div class="col-lg-3" id="divProgram22"> <br>
+        <legend> Program 13 (Not complete)</legend>
+        <h6> js program  to reverse order of words in a given string.</h6>
+
+        <label for="">Enter string:</label> <br>
+        <input type="text" name="program22" id="program22" required maxlength="" placeholder="Enter here"> 
+       
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program22()">Submit</button>
+    </div>
+
+
+
+
+    <div class="col-lg-3" id="divProgram23"> <br>
+        <legend> Program 14 </legend>
+        <h6> js program  to find first occurrence of a character in a given string.</h6>
+
+        <label for="">Enter string:</label> <br>
+        <input type="text" name="program23" id="program23" required maxlength="" placeholder="Enter here"> <br>
+        <label for="">Enter Character:</label> <br>
+        <input type="text" name="program23" id="inputProgram23" required maxlength="1" placeholder="Enter here"> 
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program23()">Submit</button>
+    </div>
+
+
+
+    <div class="col-lg-3" id="divProgram24"> <br>
+        <legend> Program 15 </legend>
+        <h6> js program  to find last occurrence of a character in a given string.</h6>
+
+        <label for="">Enter string:</label> <br>
+        <input type="text" name="program24" id="program24" required maxlength="" placeholder="Enter here"> <br>
+        <label for="">Enter Character:</label> <br>
+        <input type="text" name="program24" id="inputProgram24" required maxlength="1" placeholder="Enter here"> 
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program24()">Submit</button>
+    </div>
+
+</div>
+
+<!-- Loops Programs...................................................-->
+<br>
+<div class="row">
+    <div class="col-lg-12">
+        <h1>
+          ...........................Loops............................
+        </h1>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-lg-3" id="divProgram25">
+        <legend> Program 1</legend>
+        <h6> js program  to  to print all natural numbers from 1 to n. </h6>
+        <label for="">Enter a Number:</label> <br>
+        <input type="tel" name="program25" id="program25" required maxlength="" placeholder="Enter a Number">
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program25()">Submit</button>
+
+    </div>
+
+
+    <div class="col-lg-3" id="divProgram26">
+        <legend> Program 2</legend>
+        <h6> js program  to print all natural numbers in reverse. </h6>
+        <label for="">Enter a Number:</label> <br>
+        <input type="tel" name="program26" id="program26" required maxlength="" placeholder="Enter a Number">
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program26()">Submit</button>
+
+    </div>
+
+
+
+<div class="col-lg-3" id="divProgram27">
+        <legend> Program 3 Not completed</legend>
+        <h6> js program  to print to print all alphabets from a to z. </h6> <br>
+      
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program27()">Submit</button>
+
+    </div>
+
+
+
+
+    <div class="col-lg-3" id="divProgram28">
+        <legend> Program 4</legend>
+        <h6> js program  to  print all even numbers between 1 to 100. </h6> <br>
+     
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program28()">Submit</button>
+
+    </div>
+
+</div>
+
+
+<br>
+
+<div class="row">
+
+    <div class="col-lg-3" id="divProgram29">
+        <legend> Program 5</legend>
+        <h6> js program  to  print all odd numbers between 1 to 100. </h6> <br>
+       
+
+        <button type="button" class="btn btn-primary btn-sm" onclick="program29()">Submit</button>
+
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./scrip.js"></script>
+</body>
+
+</html>
